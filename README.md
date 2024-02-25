@@ -4,9 +4,10 @@ Phonepe Pulse Data Visualization and Exploration: A User-Friendly Tool Using Str
 ![img](https://user-images.githubusercontent.com/121713702/226621611-58ea743a-9f9d-43cd-880f-39e0f4e45b9c.png)
 
 # What is PhonePe Pulse?
-     The [PhonePe Pulse website](https://www.phonepe.com/pulse/explore/transaction/2022/4/) displays over 2000 crore transactions by users on an interactive map of India. PhonePe's statistics, which accounts for more than 45% of the market, reflects the country's digital payment habits.
+    
+The [PhonePe Pulse website](https://www.phonepe.com/pulse/explore/transaction/2022/4/) displays over 2000 crore transactions by users on an interactive map of India. PhonePe's statistics, which accounts for more than 45% of the market, reflects the country's digital payment habits.
 
-     The insights on the website and in the study were derived from two primary sources: the entirety of PhonePe's transaction data and merchant and customer interviews. The report is available for free download on the [PhonePe Pulse website](https://www.phonepe.com/pulse/explore/transaction/2022/4/) and [GitHub](https://github.com/PhonePe/pulse).
+The insights on the website and in the study were derived from two primary sources: the entirety of PhonePe's transaction data and merchant and customer interviews. The report is available for free download on the [PhonePe Pulse website](https://www.phonepe.com/pulse/explore/transaction/2022/4/) and [GitHub](https://github.com/PhonePe/pulse).
 
 # Libraries/Modules needed for the project!
 
