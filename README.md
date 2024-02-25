@@ -96,8 +96,7 @@ agg_transaction=pd.DataFrame(columns_trans)
 
  ### Step 4:**Database insertion:**
  
- 
-   To insert the datadrame into SQL first I've created a new database and tables using **"psycopg2"** library in Python to connect to a postgreSQL database and insert the transformed data using SQL commands.
+  To insert the datadrame into SQL first I've created a new database and tables using **"psycopg2"** library in Python to connect to a postgreSQL database and insert the transformed data using SQL commands.
    
    **Creating the connection between python and postgreSQL**
 
@@ -137,9 +136,9 @@ agg_transaction=pd.DataFrame(columns_trans)
 
 ### Step 5:**Dashboard creation:**
 
-    To design a vivid and informative dashboard I created an interactive and visually pleasing dashboard using Python's Plotly modules. Plotly's built-in Pie, Bar, and Geo map capabilities are utilised to display the data on charts and maps, while Streamlit is used to provide a user-friendly interface with many dropdown options for users to choose the facts and figures to display.
+ To design a vivid and informative dashboard I created an interactive and visually pleasing dashboard using Python's Plotly modules. Plotly's built-in Pie, Bar, and Geo map capabilities are utilised to display the data on charts and maps, while Streamlit is used to provide a user-friendly interface with many dropdown options for users to choose the facts and figures to display.
     
  ### Step 6:**Data retrieval:**
  
-    Finally if needed Using the "psycopg2" library to connect to the postgreSQL database and fetch the data into a Pandas dataframe.
+ Finally if needed Using the "psycopg2" library to connect to the postgreSQL database and fetch the data into a Pandas dataframe.
  
