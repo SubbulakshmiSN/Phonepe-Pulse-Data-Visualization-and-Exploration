@@ -87,8 +87,8 @@ Looping through each and every folder and opening the json files appending only 
                         columns_trans['State'].append(state)
                         columns_trans['Year'].append(year)
                         columns_trans['Quater'].append(int(j_file.strip('.json')))
-#Succesfully created a dataframe
-agg_transaction=pd.DataFrame(columns_trans)
+        #Succesfully created a dataframe
+        agg_transaction=pd.DataFrame(columns_trans)
 
 
 ##### Converting the dataframe into csv file
