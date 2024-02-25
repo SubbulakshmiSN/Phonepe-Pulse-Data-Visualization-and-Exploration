@@ -90,6 +90,18 @@ Looping through each and every folder and opening the json files appending only 
         #Succesfully created a dataframe
         agg_transaction=pd.DataFrame(columns_trans)
 
+ ### Step 3:**Data Manipulations:**
+
+Doing some data conversions in the dataframe which will make the analysis powerful.
+
+    #performing  data cleaning in dataframes that are created
+    # agg_insurance['State'].unique()
+    agg_insurance.State= agg_insurance.State.str.replace('andaman-&-nicobar-islands','Andaman & Nicobar')
+    agg_insurance.State= agg_insurance.State.str.replace('Dadra & Nagar Haveli & Daman & Diu','Dadra and Nagar Haveli and Daman and Diu')
+    agg_insurance.State= agg_insurance.State.str.replace('-',' ')
+    agg_insurance.State= agg_insurance.State.str.title()
+
+similarly manipulated all dataframes respectively.
 
 ##### Converting the dataframe into csv file
     df.to_csv('filename.csv',index=False)
