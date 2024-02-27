@@ -1,10 +1,8 @@
 import json
 import streamlit as st
 import pandas as pd
-import requests
 import psycopg2
 import plotly.express as px
-import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
 
 #creating connection to SQL
