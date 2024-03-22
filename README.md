@@ -153,4 +153,7 @@ similarly manipulated all dataframes respectively.
  ### Step 6:**Data retrieval:**
  
  Finally if needed Using the "psycopg2" library to connect to the postgreSQL database and fetch the data into a Pandas dataframe.
+
+
+ 
  
