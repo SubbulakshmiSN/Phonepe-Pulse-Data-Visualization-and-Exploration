@@ -165,8 +165,17 @@ This data has been structured to provide details of following three sections wit
 3. **Top** - Totals of top States / Districts /Pin Codes
 All the data provided in these folders is of JSON format. 
 
+#### State Data- Transaction count 
+![img](img/StateTransactionCount.png)
 
-![img](C:\Users\Admin\Downloads\newplot (1).png)
+#### Top Payment based on transaction type
+![img](img/TopPaymentType.png)
+
+#### Total Users in each District 
+ Here the total users for TamilNadu is displayed
+![img](img/DistrictVsTotUsers.png)
+
+
 
 
  
