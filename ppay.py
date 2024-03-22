@@ -183,16 +183,18 @@ if select_page == "Explore Data":
         df1 = pd.DataFrame(cursor.fetchall(), columns=['State', 'Total_Users','Total_Appopens'])
         df1.Total_Appopens = df1.Total_Appopens.astype(float)
        
-        
-        fig = px.choropleth(df1,geojson="https://gist.githubusercontent.com/jbrobst/56c13bbbf9d97d187fea01ca62ea5112/raw/e388c4cae20aa53cb5090210a42ebb9b765c0a36/india_states.geojson",
-                  featureidkey='properties.ST_NM',
-                  locations='State',
-                  color='Total_Appopens',
-                  color_continuous_scale='sunset')
-
-        fig.update_geos(fitbounds="locations", visible=False)
-        st.plotly_chart(fig,use_container_width=True)
-        
+        if Year == 2018 and  Quarter in [1,2,3,4]:
+            st.warning(" :blue[No Records to Display]" ,icon="🚨")
+        else:    
+            fig = px.choropleth(df1,geojson="https://gist.githubusercontent.com/jbrobst/56c13bbbf9d97d187fea01ca62ea5112/raw/e388c4cae20aa53cb5090210a42ebb9b765c0a36/india_states.geojson",
+                      featureidkey='properties.ST_NM',
+                      locations='State',
+                      color='Total_Appopens',
+                      color_continuous_scale='sunset')
+    
+            fig.update_geos(fitbounds="locations", visible=False)
+            st.plotly_chart(fig,use_container_width=True)
+            
         # BAR CHART TOTAL UERS - DISTRICT WISE DATA 
         st.markdown("## :blue[Select any State below to explore more]")
         selected_state = st.selectbox("",
