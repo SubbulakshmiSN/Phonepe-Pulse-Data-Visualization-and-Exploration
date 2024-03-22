@@ -154,6 +154,20 @@ similarly manipulated all dataframes respectively.
  
  Finally if needed Using the "psycopg2" library to connect to the postgreSQL database and fetch the data into a Pandas dataframe.
 
+# Insights and visualization plots from developed application 
+
+### User Guide
+
+This data has been structured to provide details of following three sections with data cuts on Transactions, Users and Insurance of PhonePe Pulse - Explore tab.
+
+1. **Aggregated** - Aggregated values of various payment categories as shown under Categories section
+2. **Map** - Total values at the State and District levels.
+3. **Top** - Totals of top States / Districts /Pin Codes
+All the data provided in these folders is of JSON format. 
+
+
+![img](C:\Users\Admin\Downloads\newplot (1).png)
+
 
  
  
